@@ -468,3 +468,84 @@ footer {
 #footer-2 a {
     color: lightblue;
 }
+@media only screen and (max-width: 600px) {
+    .div1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 120px;
+    }
+    .div1 img {
+        height: 32px;
+    }
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div2-1 {
+        width: 100%;
+    }
+    .div2-2 {
+        width: 100%;
+    }
+    .div2-2 img {
+        width: 100%;
+    }
+    .div3-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+        width: 1200px;
+    }
+    #div3-divs {
+        background-color: #ffffff;
+        color: black;
+        padding: 20px;
+        width: 350px;
+        height: 400px;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .div4 {
+        margin-top: 65px;
+        margin-bottom: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    #emma-1, #emma-2, #emma-3 {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        font-size: 19px;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding: 50px 20px;
+        height: 400px;
+    }
+    .div6 {
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div8 {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 540px;
+    }
+}
