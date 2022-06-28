@@ -1,12 +1,12 @@
 @font-face {
-    font-family: Montserrat-Variable;
-    src: url(Montserrat-VariableFont_wght.ttf);
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
 }
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: Montserrat-Variable;
+    font-family: Raleway;
 }
 .div1 {
     display: flex;
@@ -19,6 +19,7 @@
 .div2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-left: auto;
     width: 1200px;
     margin-left: auto;
@@ -50,18 +51,19 @@
     height: 50px;
     width: 250px;
     font-size: 20px;
-    color: white;
+    color: #ffffff;
     background-color: #654aff;
     border: 2px solid;
     border-radius: 5px;
+    letter-spacing: 5px;
 }
 .div2-1 button:hover {
     height: 50px;
     width: 250px;
     font-size: 20px;
     color: black;
-    background-color: white;
-    border: 2px solid #333433;
+    background-color: #ffffff;
+    border: 2px solid #f2f2f2;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -73,9 +75,10 @@
 }
 .div3 {
     background-color: #654aff;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 40px;
+    padding-bottom: 90px;
     font-size: 20px;
 }
 .div3 h1 {
@@ -87,10 +90,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    width: 1200px;
 }
 #div3-divs {
-    background-color: white;
+    background-color: #ffffff;
     color: black;
     padding: 20px;
     width: 350px;
@@ -104,40 +110,50 @@
     border: 2px solid #654aff;
     font-size: 15px;
     border-radius: 5px;
+    background-color: #ffffff;
 }
 #div3-divs button:hover {
     width: 95px;
+    background-color: #ffffff;
     height: 45px;
-    border: 2px solid #7a7a7a;
+    border: 2px solid #f2f2f2;
     font-size: 15px;
     border-radius: 5px;
     cursor: pointer;
 }
 #div3-divs img {
-    width: 50px;
+    width: 80px;
     position: relative;
-    bottom: 45px;
-}
-#div3-divs h3 {
-    font-size: 24px;
-    font-weight: 100;
-    color: #654aff;
+    bottom: 60px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
     padding: 10px;
 }
+#div3-divs h3 {
+    font-size: 22px;
+    color: #654aff;
+    padding: 5px;
+}
 #div3-divs p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
-    padding: 20px;
+    padding: 10px;
 }
 .div4 {
-    padding: 20px;
+    margin-top: 65px;
+    margin-bottom: 65px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
 }
 .div4-1 img {
     width: 400px;
+}
+.div4-2 {
+    margin-left: 40px;
 }
 #div4-2-1 {
     width: 500px;
@@ -191,7 +207,7 @@
     padding: 20px 60px;
     padding-top: 100px;
 }
-#emma, #emma-1 {
+#emma-1, #emma-2, #emma-3 {
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -203,24 +219,27 @@
     padding: 50px 20px;
     height: 170px;
 }
-#emma h1 {
+#emma-2 h1, #emma-1 h1 {
     font-size: 70px;
     font-weight: 100;
     color: #654aff;
     margin-right: 20px;
 }
-#emma-1 h1 {
+#emma-3 h1 {
     font-size: 70px;
     font-weight: 100;
     margin-right: 20px;
-    color: white;
-}
-#emma {
-    background-color: white;
+    color: #ffffff;
 }
 #emma-1 {
+    background-color: #f2f2f2;
+}
+#emma-2 {
+    background-color: #ffffff;
+}
+#emma-3 {
     background-color: #654aff;
-    color: white;
+    color: #ffffff;
 }
 .div5 h1 {
     font-size: 70px;
@@ -248,7 +267,7 @@
 }
 #div6-1 {
     padding: 20px 40px;
-    width: 450px;
+    width: 500px;
     justify-content: space-around;
 }
 #div6-1 button {
@@ -275,18 +294,21 @@
     font-weight: 100;
     padding-top: 10px;
     padding-bottom: 10px;
+    line-height: 50px;
 }
 #isVRBad1 {
     font-size: 15px;
     font-weight: 100;
     padding-top: 10px;
     padding-bottom: 10px;
+    line-height: 25px;
 }
 #isVRBad2 {
     font-size: 15px;
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
+    line-height: 25px;
 }
 .div7 {
     background-image: url(../img/img4.jpg);
@@ -306,7 +328,7 @@
     margin-top: 170px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid rgb(255, 255, 255);
     height: 350px;
     width: 500px;
@@ -331,9 +353,11 @@
     border: 2px solid #654aff;
     font-size: 15px;
     border-radius: 5px;
+    background-color: #ffffff;
 }
 #div7-1 button:hover {
     width: 135px;
+    background-color: #ffffff;
     height: 50px;
     border: 2px solid #cdccd1;
     font-size: 15px;
@@ -347,29 +371,37 @@
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    width: 1100px;
+    width: 1000px;
 }
 #div8-1, #div8-2 {
-    width: 550px;
+    width: 500px;
+    margin: 20px;
 }
 #div8-1 h3 {
     font-size: 35px;
     color: #654aff;
+    font-weight: bold;
     padding-bottom: 20px;
+    line-height: 40px;
 }
 #div8-1 p {
     font-size: 20px;
     padding-bottom: 20px;
+    line-height: 30px;
 }
 #div8-1 a {
     font-size: 22px;
     color: black;
     padding-bottom: 20px;
     text-decoration: none;
+    line-height: 32px;
+    font-weight: bold;
 }
 #div8-1 a:hover {
     font-size: 22px;
     cursor: pointer;
+    line-height: 32px;
+    font-weight: bold;
     color: #654aff;
     padding-bottom: 20px;
     text-decoration: none;
@@ -377,6 +409,8 @@
 #div8-1 img {
     height: 20px;
     width: 20px;
+    position: relative;
+    top: 3px;
 }
 #div8-1 img:hover {
     height: 20px;
@@ -394,16 +428,19 @@
 }
 .div9 {
     background-color: #654aff;
-    height: 250px;
-    color: white;
+    height: 320px;
+    color: #ffffff;
     font-size: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px;
+    letter-spacing: 10px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 .div9 img {
     padding-top: 30px;
+    
 }
 .div9 div {
     width: 300px;
@@ -418,12 +455,16 @@ footer {
     text-align: center;
 }
 #footer-1 {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 40px;
+    font-size: 15px;
+    line-height: 25px;
 }
 #footer-2 {
-    margin-top: 100px;
+    margin-top: 70px;
     padding-bottom: 0px;
     font-size: 13px;
-
+}
+#footer-2 a {
+    color: lightblue;
 }
