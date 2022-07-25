@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 120px;
+    
 }
 .div1 img {
     height: 32px;
@@ -482,17 +483,11 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: left;
-        margin-left: auto;
-        margin-right: auto;
+        border: 1px solid red;
+        padding: 0px;
     }
-    .div2-1 {
-        width: 100%;
-    }
-    .div2-2 {
-        width: 100%;
-    }
-    .div2-2 img {
-        width: 100%;
+    .div2-2, .div2-2 img, .div2-1  {
+        width: 400px;
     }
     .div3-1 {
         display: flex;
